@@ -4,7 +4,7 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'MKjob@github.io';
+$from = 'kluczek.m@gmail.com';
 
 // an email address that will receive the email with the output of the form
 $sendTo = 'kluczek.m@gmail.com';
@@ -73,3 +73,4 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
+?>
