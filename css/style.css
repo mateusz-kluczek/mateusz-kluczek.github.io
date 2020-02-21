@@ -759,8 +759,8 @@ body.offcanvas {
     position: absolute;
     top: -2px;
     right: 0;
-    width: 10px;
-    height: 10px;
+    width: 0px;  /*this is repsonsible for the dot in the progress bar, 10px - inital value*/
+    height: 0px;
     content: '';
     background: #2c98f0;
     -webkit-border-radius: 50%;
